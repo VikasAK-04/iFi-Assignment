@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">1Fi Marketplace</string>
+    <string name="nav_shop">Shop</string>
+    <string name="nav_marketplace">Marketplace</string>
+    <string name="nav_orders">My Orders</string>
+
+    <!-- Shop Screen -->
+    <string name="shop_welcome_title">Welcome to 1Fi</string>
+    <string name="shop_welcome_subtitle">Smart financial shopping &amp; easy EMIs</string>
+    <string name="banner_marketplace_title">1Fi Marketplace</string>
+    <string name="banner_marketplace_subtitle">Buy top tech with 0% No-Cost EMI plans</string>
+    <string name="banner_marketplace_cta">Explore Marketplace</string>
+    <string name="section_top_brands">Top Brands</string>
+    <string name="section_nearby_stores">Nearby Stores</string>
+    <string name="view_all">View All</string>
+
+    <!-- Marketplace List Screen -->
+    <string name="marketplace_title">1Fi Marketplace</string>
+    <string name="search_hint">Search products, brands…</string>
+    <string name="category_all">All</string>
+    <string name="category_smartphones">Smartphones</string>
+    <string name="category_laptops">Laptops</string>
+    <string name="category_wearables">Wearables</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_tv">TV &amp; Display</string>
+
+    <!-- Product Cards -->
+    <string name="starting_emi_format">Starting at ₹%s/mo</string>
+    <string name="no_cost_emi_tag">0% No-Cost EMI</string>
+    <string name="view_details">View Details</string>
+    <string name="in_stock">In Stock</string>
+    <string name="products_count_format">%d products available</string>
+
+    <!-- Product Details -->
+    <string name="choose_variant">Select Variant</string>
+    <string name="key_features">Key Specifications</string>
+    <string name="emi_options_title">Select EMI Plan</string>
+    <string name="emi_options_subtitle">Choose flexible monthly payment tenure</string>
+    <string name="cta_proceed_emi">Proceed with Selected Plan</string>
+
+    <!-- EMI Card Labels -->
+    <string name="tenure_format">%d Months</string>
+    <string name="monthly_amount_format">₹%s / month</string>
+    <string name="total_payable_format">Total Payable: ₹%s</string>
+
+    <!-- Order Review Screen -->
+    <string name="review_order_title">Review Purchase Request</string>
+    <string name="review_order_subtitle">Verify your selected item and EMI details</string>
+    <string name="summary_product_details">Product Summary</string>
+    <string name="summary_variant">Variant</string>
+    <string name="summary_product_price">Base Price</string>
+    <string name="summary_emi_tenure">EMI Tenure</string>
+    <string name="summary_monthly_emi">Monthly EMI</string>
+    <string name="summary_processing_fee">Processing Fee</string>
+    <string name="summary_total_payable">Total Amount Payable</string>
+    <string name="processing_fee_free">FREE</string>
+    <string name="cta_confirm_purchase">Confirm &amp; Proceed</string>
+
+    <!-- Confirmation Dialog -->
+    <string name="confirmation_title">You\'re All Set!</string>
+    <string name="confirmation_message">Your 1Fi Marketplace purchase application has been successfully prepared.</string>
+    <string name="ref_id_format">Application Reference: #1FI-%s</string>
+    <string name="cta_back_to_marketplace">Back to Marketplace</string>
+
+    <!-- States -->
+    <string name="loading_products">Fetching products from 1Fi Marketplace…</string>
+    <string name="error_title">Unable to Load Products</string>
+    <string name="error_message">We encountered an issue connecting to 1Fi servers. Please try again.</string>
+    <string name="cta_retry">Retry</string>
+    <string name="empty_title">No Products Found</string>
+    <string name="empty_message">We couldn\'t find any items matching your search. Try another query.</string>
+    <string name="cta_clear_search">Clear Search</string>
+</resources>

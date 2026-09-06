@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._1FiMarketplace" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/onefi_purple_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/onefi_purple_50</item>
+        <item name="colorOnPrimaryContainer">@color/onefi_purple_dark</item>
+        <item name="android:windowBackground">@color/onefi_bg_page</item>
+        <item name="android:statusBarColor">@color/onefi_purple_dark</item>
+    </style>
+
+    <style name="Theme._1FiMarketplace" parent="Base.Theme._1FiMarketplace" />
+</resources>

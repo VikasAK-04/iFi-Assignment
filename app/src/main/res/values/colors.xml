@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 1Fi Brand Purple Colors -->
+    <color name="onefi_purple_primary">#6C2BD9</color>
+    <color name="onefi_purple_dark">#4C1D95</color>
+    <color name="onefi_purple_light">#EDE9FE</color>
+    <color name="onefi_purple_50">#F5F3FF</color>
+    <color name="onefi_purple_100">#ECE9FE</color>
+    <color name="onefi_purple_surface">#FAF5FF</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="onefi_bg_page">#F8FAFC</color>
+    <color name="onefi_card_bg">#FFFFFF</color>
+    <color name="onefi_card_bg_elevated">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="onefi_text_primary">#0F172A</color>
+    <color name="onefi_text_secondary">#475569</color>
+    <color name="onefi_text_muted">#94A3B8</color>
+    <color name="onefi_text_on_purple">#FFFFFF</color>
+
+    <!-- Accent & Status Colors -->
+    <color name="onefi_green_accent">#059669</color>
+    <color name="onefi_green_bg">#ECFDF5</color>
+    <color name="onefi_green_border">#A7F3D0</color>
+    <color name="onefi_amber_accent">#D97706</color>
+    <color name="onefi_amber_bg">#FFFBEB</color>
+
+    <!-- Borders & Dividers -->
+    <color name="onefi_border">#E2E8F0</color>
+    <color name="onefi_border_active">#6C2BD9</color>
+    <color name="onefi_divider">#F1F5F9</color>
+
+    <!-- Shimmer & Loading -->
+    <color name="onefi_shimmer_bg">#E2E8F0</color>
+</resources>

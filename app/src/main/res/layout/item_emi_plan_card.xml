@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardEmiPlan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_small"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/onefi_card_bg"
+    app:cardCornerRadius="@dimen/corner_radius_card"
+    app:cardElevation="@dimen/elevation_none"
+    app:strokeColor="@color/onefi_border"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_normal">
+
+        <!-- Custom Radio Button Indicator -->
+        <ImageView
+            android:id="@+id/ivRadioState"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_radio_unselected"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Tenure Title -->
+        <TextView
+            android:id="@+id/tvTenure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:textColor="@color/onefi_text_primary"
+            android:textSize="@dimen/text_size_subtitle"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/tvNoCostBadge"
+            app:layout_constraintStart_toEndOf="@id/ivRadioState"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="6 Months" />
+
+        <!-- No Cost EMI Tag -->
+        <TextView
+            android:id="@+id/tvNoCostBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_tag_green"
+            android:paddingStart="@dimen/spacing_tiny"
+            android:paddingTop="2dp"
+            android:paddingEnd="@dimen/spacing_tiny"
+            android:paddingBottom="2dp"
+            android:text="@string/no_cost_emi_tag"
+            android:textColor="@color/onefi_green_accent"
+            android:textSize="@dimen/text_size_caption"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Monthly EMI Amount -->
+        <TextView
+            android:id="@+id/tvMonthlyAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/onefi_purple_primary"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivRadioState"
+            app:layout_constraintTop_toBottomOf="@id/tvTenure"
+            tools:text="₹22,483 / month" />
+
+        <!-- Total Payable Detail -->
+        <TextView
+            android:id="@+id/tvTotalPayable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/onefi_text_secondary"
+            android:textSize="@dimen/text_size_caption"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivRadioState"
+            app:layout_constraintTop_toBottomOf="@id/tvMonthlyAmount"
+            tools:text="Total Payable: ₹1,34,900 • Processing fee: FREE" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
