@@ -3,9 +3,7 @@ package com.vikas.onefimarketplace.data.model;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-/**
- * Generic wrapper for managing UI state (Loading, Success, Error, Empty).
- */
+
 public class Resource<T> {
 
     public enum Status {
